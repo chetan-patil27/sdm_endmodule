@@ -1,0 +1,45 @@
+Functional Requirements for Online Ticket Booking System:
+
+1. User Registration:
+   - Users should be able to create new accounts by providing necessary details such as name, email, and password.
+
+2. User Login:
+   - Registered users should be able to log in to their accounts using their credentials.
+
+3. Search and Browse:
+   - Users should be able to search for available tickets based on criteria such as destination, date, time, and number of passengers.
+   - The system should provide a user-friendly interface to browse through the available options and view ticket details.
+
+4. Seat Selection:
+   - Users should be able to select seats or choose seat preferences during the booking process.
+   - The system should ensure that seat availability is updated in real-time to avoid double bookings.
+
+5. Booking and Payment:
+   - Users should be able to book tickets by providing passenger details and making payment using a secure payment gateway.
+   - The system should generate a booking confirmation and send it to the user via email or SMS.
+
+6. Ticket Cancellation and Refund:
+   - Users should have the option to cancel their booked tickets within a specified time frame.
+   - The system should process ticket cancellations and initiate refunds according to the cancellation policy.
+
+7. Ticket Modification:
+   - Users should be able to modify their ticket details, such as passenger names or travel dates, subject to any applicable restrictions and policies.
+
+8. Booking History and Profile Management:
+   - Users should have access to their booking history, including past and upcoming trips.
+   - Users should be able to manage their profile information, update contact details, and modify preferences.
+
+9. Notifications and Alerts:
+   - The system should send notifications and alerts to users regarding booking confirmation, changes in schedule, or any other relevant updates.
+
+10. Customer Support:
+    - Users should have access to customer support channels, such as chat, email, or phone, to address their queries or concerns related to bookings.
+
+11. Admin Dashboard:
+    - An admin dashboard should be provided to manage user accounts, ticket inventory, and handle system configurations.
+    - Admins should have the ability to add, update, or remove routes, fares, and other relevant information.
+
+12. Reporting and Analytics:
+    - The system should generate reports and provide analytics on ticket sales, popular routes, user preferences, etc., to help in decision-making and business analysis.
+
+These functional requirements outline the key features and capabilities that an online ticket booking system should provide to its users and administrators.

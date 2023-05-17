@@ -1,0 +1,50 @@
+Business Entities for Online Ticket Booking System:
+
+1. User:
+   - Attributes: ID, Name, Email, Password, Contact Details, etc.
+   - Responsibilities: Register and authenticate users, manage user profiles,
+track booking history, etc.
+
+2. Ticket:
+   - Attributes: ID, Source, Destination, Date, Time, Seat Number, Fare, etc.
+   - Responsibilities: Represent individual tickets with their details, manage 
+seat availability, handle ticket bookings, cancellations, and modifications.
+
+3. Payment:
+   - Attributes: ID, Ticket ID, Amount, Payment Method, Transaction Details, etc.
+   - Responsibilities: Process ticket payments securely, handle payment verification
+and confirmation, generate receipts.
+
+4. Route:
+   - Attributes: ID, Source, Destination, Distance, Duration, etc.
+   - Responsibilities: Define travel routes, provide information on source and destination
+locations, calculate distance and duration.
+
+5. Schedule:
+   - Attributes: ID, Route ID, Departure Time, Arrival Time, Availability, etc.
+   - Responsibilities: Define departure and arrival times for specific routes, manage seat 
+availability for each schedule.
+
+6. Booking:
+   - Attributes: ID, User ID, Ticket ID, Booking Date, Status, etc.
+   - Responsibilities: Capture booking details, associate users with booked tickets, track 
+booking status, handle cancellations and modifications.
+
+7. Notification:
+   - Attributes: ID, User ID, Message, Timestamp, etc.
+   - Responsibilities: Send notifications to users regarding booking confirmation, changes in
+ schedule, payment status, etc.
+
+8. Customer Support:
+   - Attributes: ID, Name, Contact Details, Department, etc.
+   - Responsibilities: Provide customer support services, handle user inquiries, resolve issues
+ related to bookings.
+
+9. Admin:
+   - Attributes: ID, Name, Email, Password, Role, etc.
+   - Responsibilities: Manage the overall system, handle user accounts, configure routes and schedules,
+generate reports, etc.
+
+These business entities represent the key factors and objects involved in the online ticket booking system. 
+Each entity has its own attributes that capture relevant information and responsibilities that outline their
+roles and actions within the system.
